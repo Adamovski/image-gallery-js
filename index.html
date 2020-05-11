@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Image Gallery</title>
     <link rel="stylesheet" href="./index.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/3d9f311ede.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <div class="container">
       <div class="main-img">
+        <i class="fas fa-arrow-left" id="prevBtn"></i>
+        <i class="fas fa-arrow-right" id="nextBtn"></i>
         <img src="./assets/01.jpg" id="current" />
       </div>
-      <button id="prevBtn">Previous</button>
-      <button id="nextBtn">Next</button>
-
       <div class="imgs">
-        <img src="assets/01.jpg" />
+        <img src="assets/01.jpg" value="1" />
         <img src="assets/02.jpg" />
         <img src="assets/03.jpg" />
         <img src="assets/04.jpg" />
