@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="./modal.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/3d9f311ede.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="imgs">
+        <img src="../assets/01.jpg" />
+        <img src="../assets/02.jpg" />
+        <img src="../assets/03.jpg" />
+        <img src="../assets/04.jpg" />
+        <img src="../assets/05.jpg" />
+        <img src="../assets/06.jpg" />
+        <img src="../assets/07.jpg" />
+        <img src="../assets/08.jpg" />
+      </div>
+    </div>
+    <div class="modal-container">
+      <i class="fas fa-arrow-left" id="prevBtn"></i>
+      <i class="fas fa-arrow-right" id="nextBtn"></i>
+      <div class="img-modal">
+        <i class="fas fa-times" id="closeBtn"></i>
+        <img class="slide trasnparent" src="../assets/01.jpg" />
+        <img class="slide trasnparent" src="../assets/02.jpg" />
+        <img class="slide trasnparent" src="../assets/03.jpg" />
+        <img class="slide trasnparent" src="../assets/04.jpg" />
+        <img class="slide trasnparent" src="../assets/05.jpg" />
+        <img class="slide trasnparent" src="../assets/06.jpg" />
+        <img class="slide trasnparent" src="../assets/07.jpg" />
+        <img class="slide trasnparent" src="../assets/08.jpg" />
+      </div>
+    </div>
+    <script src="./modal.js"></script>
+  </body>
+</html>
